@@ -1,0 +1,68 @@
+# Junâyed Khân Optics Simulation
+
+A simple **Geometric Optics Simulation** built with React + TailwindCSS + Framer Motion. 
+
+You can experiment with:
+- Different objects (➡️ Arrow, 🦊 Fox, 🐐 Goat)
+- Change object distance (u)
+- Change focal length (f)
+- See real-time image formation using the lens equation (1/f = 1/v + 1/u)
+
+---
+
+## 🚀 How to Run
+
+```bash
+# 1. Clone this repo
+git clone https://github.com/your-username/junayed-optics-sim.git
+cd junayed-optics-sim
+
+# 2. Install dependencies
+npm install
+
+# 3. Run locally
+npm run dev
+```
+Then open: **http://localhost:5173** in your browser.
+
+---
+
+## 📦 package.json
+
+```json
+{
+  "name": "junayed-optics-sim",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^11.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.3.0",
+    "vite": "^5.0.0"
+  }
+}
+```
+
+---
+
+## ✨ Features
+- No PhET dependency — completely custom made.
+- Shows both **object** and **image** dynamically.
+- Lightweight and modern design.
+- Watermark: **Junâyed Khân** in the corner.
+
+---
+
+## 📜 License
+This project is created for personal/educational use by **Junâyed Khân**. You are free to modify and share with proper attribution.
